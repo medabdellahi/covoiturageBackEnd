@@ -23,16 +23,16 @@ public class ConfigCORSFilter  implements Filter{
 	@Override
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
 			throws IOException, ServletException {
-		((HttpServletResponse) response).addHeader("Access-Control-Allow-Origin", "/*");
-        ((HttpServletResponse) response).addHeader("Access-Control-Allow-Headers", "Origin, Accept, XRequeste-With,Content-Type,"
-        		+ "Access-Control-Request-Method,"
-        		+ "Access-Control-Request-Headers,"
-        		+ "Authorization");
-        ((HttpServletResponse) response).addHeader("Access-Control-Expose-Headers", "Access-Control-Allow-Origin,"
-        		+ " Access-Control-Allow-Credentials,"
-        		+ "Authorization");
-       
-        chain.doFilter(request, response);
+//		((HttpServletResponse) response).addHeader("Access-Control-Allow-Origin", "/*");
+//        ((HttpServletResponse) response).addHeader("Access-Control-Allow-Headers", "Origin, Accept, XRequeste-With,Content-Type,"
+//        		+ "Access-Control-Request-Method,"
+//        		+ "Access-Control-Request-Headers,"
+//        		+ "Authorization");
+//        ((HttpServletResponse) response).addHeader("Access-Control-Expose-Headers", "Access-Control-Allow-Origin,"
+//        		+ " Access-Control-Allow-Credentials,"
+//        		+ "Authorization");
+//       
+//        chain.doFilter(request, response);
 	      
 			
 	}
